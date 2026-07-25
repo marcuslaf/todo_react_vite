@@ -1,75 +1,30 @@
-# TodoApp
+# Todo App - React + Vite
+# Todo App - React + Vite
 
-Este é um projeto de Lista de Tarefas (Todo List) desenvolvido com **React** e **Vite**, permitindo adicionar, editar, excluir e marcar tarefas como concluídas. O projeto também inclui categorias, prioridades, datas de vencimento, pesquisa e filtros.
+**Aplicação de lista de tarefas (Todo List) construída com React e Vite. Gerencia tarefas com adição, conclusão e remoção, com persistência em localStorage.**
 
-## Tecnologias Utilizadas / Technologies Used
-
-- React
-- Vite
-- CSS
-- LocalStorage
-
-## Recursos / Features
-
-- 📌 **Adicionar** novas tarefas
-- ✏️ **Editar** tarefas existentes
-- ❌ **Excluir** tarefas
-- ✅ **Marcar tarefas como concluídas**
-- 🔍 **Pesquisar tarefas**
-- 📂 **Filtrar por status (Todas, Concluídas, Pendentes)**
-- 🔄 **Ordenar alfabeticamente (Crescente e Decrescente)**
-- 🏷️ **Categorias predefinidas (Pessoal, Trabalho, Estudos, Compras)**
-- ⚡ **Definir prioridade (Baixa, Normal, Alta)**
-- 📅 **Adicionar data de vencimento**
-- 💾 **Salvamento automático no LocalStorage**
+**Task list application (Todo List) built with React and Vite. Manages tasks with add, complete, and remove functionality, with localStorage persistence.**
 
 ---
 
-# Instalação e Uso / Installation and Usage
+## Tecnologias | Technologies
 
-### 1️⃣ Clone este repositório / Clone this repository
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
-```sh
-git clone https://github.com/seu-usuario/TodoApp.git
-cd TodoApp
-```
+## Funcionalidades | Features
 
-### 2️⃣ Instale as dependências / Install dependencies
-
-```sh
-npm install
-```
-
-### 3️⃣ Execute o projeto / Run the project
-
-```sh
-npm run dev
-```
-
-O aplicativo será executado em `http://localhost:5173` (ou outra porta definida pelo Vite).
-
-The app will run at `http://localhost:5173` (or another port defined by Vite).
+- Adicionar e remover tarefas | Add and remove tasks
+- Marcar como concluído | Mark as completed
+- Persistência local | Local persistence
 
 ---
 
-# Estrutura do Projeto / Project Structure
+## Autor | Author
 
-```
-TodoApp/
-├── src/
-│   ├── components/
-│   ├── styles/
-│   ├── App.jsx
-│   ├── main.jsx
-├── public/
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-```
+**Marcus Lafaiete** — [@marcuslaf](https://github.com/marcuslaf)
 
 ---
 
-
-Feito com ❤️ por / Made with ❤️ by [Marcus Lafaiete](https://github.com/Marcuslaf/todo_react_vite)
-
+<div align="center">
+  <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-success?style=for-the-badge"/>
+</div>
